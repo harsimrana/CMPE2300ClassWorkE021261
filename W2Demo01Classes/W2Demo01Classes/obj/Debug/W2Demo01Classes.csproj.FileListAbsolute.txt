@@ -5,3 +5,10 @@ C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\W2Demo01Classes\W2Demo01Classe
 C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.csproj.CoreCompileInputs.cache
 C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.exe
 C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.pdb
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\bin\Debug\W2Demo01Classes.exe.config
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\bin\Debug\W2Demo01Classes.exe
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\bin\Debug\W2Demo01Classes.pdb
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.csproj.AssemblyReference.cache
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.exe
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\W2Demo01Classes\W2Demo01Classes\obj\Debug\W2Demo01Classes.pdb

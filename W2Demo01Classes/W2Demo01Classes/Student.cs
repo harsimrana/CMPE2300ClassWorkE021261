@@ -28,18 +28,32 @@ namespace W2Demo01Classes
          */
 
         // NO RETURN DATA Type, No Parameters - Default Constructor
-        public Student()
-        {
-            _studentId = 0;
-            _studentFName = "";
-            _studentLName = "";
-        }
+        //public Student()
+        //{
+        //    _studentId = 0;
+        //    _studentFName = "";
+        //    _studentLName = "";
+        //}
 
         public Student(int sid, string firstName, string lastName)
         {
             _studentId = sid;
             _studentFName = firstName;
             _studentLName = lastName;
+        }
+
+        // Constructor Chaining - one constructor will call another constructor, so you can reuse initialization logic instead
+        // repeating it.
+        /*
+         *  : this (...)
+         *  
+         *  
+         */
+
+        public Student()
+            : this(0, "", "")
+        {
+
         }
 
         public void DisplayStudent()
@@ -56,6 +70,9 @@ namespace W2Demo01Classes
             _studentFName = studentFirstName;
             _studentLName = studentLastName;
         }
+
+
+       
 
         
     }

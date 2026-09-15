@@ -13,6 +13,65 @@ namespace W2Demo01Classes
         string _studentFName;
         string _studentLName;
 
+        /* Properties 
+         Let you control access to data members without forcing
+         users of the class to call methods
+        
+         public datatype PropertyName
+        {
+            
+        }
+        */
+        public int StudentId
+        {
+            get
+            {
+                return _studentId;
+            }
+            set 
+            {
+                // validate and sanitize your incoming data
+                _studentId = value;  // So value will represent the value provided by user 
+            }
+        }
+
+        // Automatic version of property
+        public int StudentID
+        {
+            get; set;  // But no flexibility to add validations here
+        }
+
+        
+
+        public string StudentFName
+        {  // Read Only Property 
+            get
+            {
+                return _studentFName;
+            }
+            // because there is no set added
+        }
+
+
+        // Data members- actually store the data
+        // Property - provides controlled access - Lock to your storage
+        // Methods- represent actions or behaviour
+
+
+        // So you need to write one setter and one getter method for 
+        // each and every data member
+        // To Avoid this - Properties were there
+        public string GetStudentFirstName()
+        {
+            return _studentFName;
+        }
+
+        public void SetStudentFirstName(string fname)
+        {
+            // Validation 
+            // Name should not be empty
+            _studentFName = fname;
+        }
         // Methods
 
         // Constructor: a special method that runs automatically 

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\",
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54E4F9EC-446E-4BDF-8614-37F07D97EF7D}|W2Demo01Classes\\W2Demo01Classes.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\w2demo01classes\\w2demo01classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54E4F9EC-446E-4BDF-8614-37F07D97EF7D}|W2Demo01Classes\\W2Demo01Classes.csproj|c:\\users\\harsimrana\\videos\\2300\\cmpe2300classworke021261\\w2demo01classes\\w2demo01classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54E4F9EC-446E-4BDF-8614-37F07D97EF7D}|W2Demo01Classes\\W2Demo01Classes.csproj|solutionrelative:w2demo01classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54E4F9EC-446E-4BDF-8614-37F07D97EF7D}|W2Demo01Classes\\W2Demo01Classes.csproj|C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\w2demo01classes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54E4F9EC-446E-4BDF-8614-37F07D97EF7D}|W2Demo01Classes\\W2Demo01Classes.csproj|C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\w2demo01classes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54E4F9EC-446E-4BDF-8614-37F07D97EF7D}|W2Demo01Classes\\W2Demo01Classes.csproj|solutionrelative:w2demo01classes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Student.cs",
               "RelativeDocumentMoniker": "W2Demo01Classes\\Student.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Student.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Student.cs",
               "RelativeToolTip": "W2Demo01Classes\\Student.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwDsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T23:07:20.714Z",
               "EditorCaption": ""
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Program.cs",
               "RelativeDocumentMoniker": "W2Demo01Classes\\Program.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Program.cs*",
-              "RelativeToolTip": "W2Demo01Classes\\Program.cs*",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswEYAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\W2Demo01Classes\\W2Demo01Classes\\Program.cs",
+              "RelativeToolTip": "W2Demo01Classes\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwEwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T23:30:50.221Z",
               "EditorCaption": ""

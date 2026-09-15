@@ -68,7 +68,22 @@ namespace W2Demo01Classes
              * 
              */
 
+
+            // Using Properties to work with data members
+            Student student4 = new Student();
+
+            // object.PropertyName 
+            student4.StudentId = 5;  // Setting the value
             
+            // It will complaint about the following because we are trying to access a read only property
+
+            //student4.StudentFName = "Simran";
+
+            Console.WriteLine(student4.StudentId); // Accessing the value
+            
+            Console.WriteLine(student4.StudentFName);
+
+           
         }
     }
 

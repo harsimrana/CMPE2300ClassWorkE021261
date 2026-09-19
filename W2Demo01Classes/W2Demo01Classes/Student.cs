@@ -13,6 +13,11 @@ namespace W2Demo01Classes
         string _studentFName;
         string _studentLName;
 
+        double _studentGrade;
+
+        // Static Data member
+        public static int StudentCount = 0;
+
         /* Properties 
          Let you control access to data members without forcing
          users of the class to call methods
@@ -35,13 +40,13 @@ namespace W2Demo01Classes
             }
         }
 
-        // Automatic version of property
-        public int StudentID
-        {
-            get; set;  // But no flexibility to add validations here
-        }
+        // Automatic version of property  auto- implemented
+        //public int StudentId
+        //{
+        //    get; set;  // But no flexibility to add validations here
+        //}
 
-        
+        public double StudentGrade { get; set; }
 
         public string StudentFName
         {  // Read Only Property 
@@ -99,6 +104,10 @@ namespace W2Demo01Classes
             _studentId = sid;
             _studentFName = firstName;
             _studentLName = lastName;
+            StudentGrade = 65;
+
+            StudentCount++;  // Why class name is not there because you are accessing inside the class
+
         }
 
         // Constructor Chaining - one constructor will call another constructor, so you can reuse initialization logic instead
@@ -131,8 +140,43 @@ namespace W2Demo01Classes
         }
 
 
-       
 
+
+        // Static member and methods
+        /* Static members and methods belong to class rather than an individual object.
+         * It should be public because otherwise you won't able to access it outside the class
+         * Static method cannot access object information WHY??  because we provide the reference like which object
+         * CTOR or others can access static member 
+         * STATIC method can only static data members
+         * 
+         */
+
+        public static void DisplayStudentCount()
+        {
+            // UNCOMMENT THE FOLLOWING LINE TO CHECK ERROR   
+            //Console.WriteLine($"Total students {_studentFName}"); // Not possible / Not allowed
+            // you cannot access regular data members/methods inside static method
+            // You can only access static data members/ methods
+
+            Console.WriteLine($"Total students {StudentCount}");
+        }
+
+        public static bool IsPassingGrade(double grade)
+        {
+            if (grade >= 50)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+            // Short cut version
+            return grade >= 50;
+
+            // Both versions are doing the same thing
+        }
         
     }
 }

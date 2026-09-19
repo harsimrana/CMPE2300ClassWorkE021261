@@ -83,7 +83,24 @@ namespace W2Demo01Classes
             
             Console.WriteLine(student4.StudentFName);
 
-           
+            Student student5= new Student();
+
+            Console.WriteLine($" Total Number of students so far {Student.StudentCount}");
+
+            // Calling Static method 
+            // No need to create an object to access static members
+            Student.DisplayStudentCount();
+
+
+            student5.StudentGrade = 53; 
+            // Let's test passing grades for any student
+
+            bool returnedValue = Student.IsPassingGrade(student5.StudentGrade);
+
+            string reponse = returnedValue ? "Passing" : "failing";
+
+            Console.WriteLine(" You are " + reponse);
+
         }
     }
 

@@ -177,6 +177,34 @@ namespace W2Demo01Classes
 
             // Both versions are doing the same thing
         }
-        
+
+
+        // Week 04 Day 01: Demo Continue to Grow : 22.09.2026
+
+
+        /* override - we are replacing/ customizing the interhited [object class] version of Equals
+         * bool - return data type of the method
+         * Equals - Method name Already defined in object class
+         * 
+         * Object obj - The object we want to compare it against
+         */
+        public override bool Equals(object obj)
+        {
+            // Tyring to convert obj to Student type
+            Student otherstudent = obj as Student;
+
+            if(otherstudent == null)
+            {
+                return false;
+            }
+
+            // That is design decision 
+            // If student ids are same, both the objects are same
+            //return StudentId == otherstudent.StudentId;
+
+            // Later if you want to add/ remove properties you can do that
+            return this.StudentId == otherstudent.StudentId && StudentFName== otherstudent.StudentFName ;
+        }
+
     }
 }

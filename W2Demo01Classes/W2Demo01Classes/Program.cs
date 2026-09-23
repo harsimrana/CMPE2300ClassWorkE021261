@@ -101,6 +101,33 @@ namespace W2Demo01Classes
 
             Console.WriteLine(" You are " + reponse);
 
+
+
+            // Week 04 Day 01: Demo Continue to Grow : 22.09.2026
+
+            // Equals()
+
+            Student s1 = new Student(300, "Simran1", "Aulakh");
+            Student s2 = new Student(300, "Simran", "Aulakh");
+            
+            // Reference Equality
+            // True or False ?? -- Run the program
+            Console.WriteLine(s1 == s2);
+
+            // Assigning reference to another variable 
+            Student s3 = s1;
+
+            // True or False ??
+            Console.WriteLine(s1 == s3);
+
+            // True or False ?? True - Value/ content Equality 
+            Console.WriteLine(s1.StudentFName == s2.StudentFName);
+
+
+            // Test it with Equals TRUE or False 
+            Console.WriteLine(s1.Equals(s2));
+
+
         }
     }
 

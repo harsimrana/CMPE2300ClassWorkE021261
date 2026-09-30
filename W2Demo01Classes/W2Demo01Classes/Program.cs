@@ -128,6 +128,38 @@ namespace W2Demo01Classes
             Console.WriteLine(s1.Equals(s2));
 
 
+            // Week 05 Day 01: Demo Continue to Grow : 29.09.2026
+            // Compare objects with each other
+
+            List<Student> myStudents = new List<Student>
+            {
+                new Student(101, "Simran", "Aulakh"),
+                new Student(102,"Alex", "ABC"),
+                new Student (103, "John", "Xyz")
+            };
+
+            myStudents.Sort();
+
+
+            /* What happens internally
+             * 
+             * myStudents.Sort() ->  List needs to compare studnets Objects
+             * 
+             * -> CompareTo()  -> Student Says which one comes first 
+             * 
+             * -> List rearrange objects 
+             * 
+             * Sort() function does not know it magically 
+             * 
+             * YOur class has defined the comparison rule
+             * 
+             */
+            foreach (Student student in myStudents)
+            {
+                Console.WriteLine(student);
+            }
+
+
         }
     }
 

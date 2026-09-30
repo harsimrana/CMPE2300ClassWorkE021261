@@ -6,8 +6,39 @@ using System.Threading.Tasks;
 
 namespace W2Demo01Classes
 {
-    public class Student
+    // Week 05 Day 01: Demo Continue to Grow : 29.09.2026
+    public class Student : IComparable<Student>
     {
+        /* We are making a promise 
+         * Student class will provide the functionality required by IComparable
+         * 
+         * That required method is:
+         * int CompareTo( Student other)
+         * 
+         * Think of an interface as a contract 
+         * IComparable <Student>
+         *      |
+         *  "You promise you can compare yourself with another Student"
+         *      |
+         *  Student must provide CompareTo()    
+         * 
+         * Imagine a job requirement.
+         * Job: Driver 
+         *  Anyone claiming:
+         *  "I am a driver"
+         *  
+         *  must satisfy that requirement
+         *  
+         *  likewise 
+         *  
+         *  Class Student: IComparable<Student>
+         *  means
+         *  "Student claims that it is comparable"
+         *  
+         *  Therefore, it must implement CompareTo()
+         * 
+         */
+
         // Data Members
         private int _studentId;  // By default data members are private
         string _studentFName;
@@ -205,6 +236,53 @@ namespace W2Demo01Classes
             // Later if you want to add/ remove properties you can do that
             return this.StudentId == otherstudent.StudentId && StudentFName== otherstudent.StudentFName ;
         }
+
+        // Week 05 Day 01: Demo Continue to Grow : 29.09.2026
+        // Compare objects with each other
+
+        public int CompareTo(Student other)
+        {
+            if (other == null)
+            {
+                return 1;
+            }
+
+            // return StudentId.CompareTo(other.StudentId);
+
+            // Order change will reverse the behaviour of ordering/ sorting
+            //return other.StudentId.CompareTo(StudentId);
+
+            // Manually define my rule
+
+            //if (StudentId < other.StudentId)
+            //{
+            //    return -1;
+            //}
+            //if (StudentId > other.StudentId)
+            //{
+            //    return 1;
+            //}
+            //else {
+            //    return 0;
+            //}
+
+            int result = StudentFName.CompareTo(other.StudentFName);
+
+            if (result == 0)
+            {
+                result = StudentId.CompareTo(other.StudentId);
+            }
+
+            return result;
+
+        }
+
+        public override string ToString()
+        {
+            return $"{StudentId} - {StudentFName}";
+
+        }
+
 
     }
 }

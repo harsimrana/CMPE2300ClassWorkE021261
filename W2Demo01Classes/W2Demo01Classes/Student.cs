@@ -88,7 +88,14 @@ namespace W2Demo01Classes
             // because there is no set added
         }
 
-
+        public string StudentLName
+        {
+            get 
+            {
+                return _studentLName;
+            }
+          
+        }
         // Data members- actually store the data
         // Property - provides controlled access - Lock to your storage
         // Methods- represent actions or behaviour
@@ -130,12 +137,12 @@ namespace W2Demo01Classes
         //    _studentLName = "";
         //}
 
-        public Student(int sid, string firstName, string lastName)
+        public Student(int sid, string firstName, string lastName, double studentGrade=0)
         {
             _studentId = sid;
             _studentFName = firstName;
             _studentLName = lastName;
-            StudentGrade = 65;
+            StudentGrade = studentGrade;
 
             StudentCount++;  // Why class name is not there because you are accessing inside the class
 
@@ -150,7 +157,7 @@ namespace W2Demo01Classes
          */
 
         public Student()
-            : this(0, "", "")
+            : this(0, "", "",0)
         {
 
         }
@@ -242,6 +249,9 @@ namespace W2Demo01Classes
 
         public int CompareTo(Student other)
         {
+            /*    -1      0      1
+             *   Before  equal  after 
+             */
             if (other == null)
             {
                 return 1;
@@ -279,10 +289,17 @@ namespace W2Demo01Classes
 
         public override string ToString()
         {
-            return $"{StudentId} - {StudentFName}";
+            return $"{StudentId} - {StudentFName} - {StudentLName} - {StudentGrade}";
 
         }
 
+        //Week 05 Day 03: Demo Continue to Grow : 02.10.2026
+        //        Compare objects with each other
+
+        public static int CompareByLName(Student s1, Student s2)
+        {
+            return s1.StudentLName.CompareTo(s2.StudentLName);
+        }
 
     }
 }

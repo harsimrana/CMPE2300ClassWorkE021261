@@ -133,12 +133,12 @@ namespace W2Demo01Classes
 
             List<Student> myStudents = new List<Student>
             {
-                new Student(101, "Simran", "Aulakh"),
-                new Student(102,"Alex", "ABC"),
-                new Student (103, "John", "Xyz")
+                new Student(101, "Simran", "Aulakh", 63),
+                new Student(102,"Alex", "ABC", 85),
+                new Student (103, "John", "Xyz", 90)
             };
 
-            myStudents.Sort();
+            //myStudents.Sort();
 
 
             /* What happens internally
@@ -154,13 +154,112 @@ namespace W2Demo01Classes
              * YOur class has defined the comparison rule
              * 
              */
-            foreach (Student student in myStudents)
+            //foreach (Student student in myStudents)
+            //{
+            //    Console.WriteLine(student);
+            //}
+            // not required because we have method for it
+            DisplayStudents(myStudents);
+
+
+
+            /*  Week 05 Day 03: Demo Continue to Grow : 02.10.2026
+                Compare objects with each other
+
+                Comparison<T>  in C# is a delegate used to define how two objects should be compared for sorting
+
+                - rule that takes two objects and tells C# which one should come first
+
+                
+             * 
+             */
+
+            Console.WriteLine("Sort By Student Id");
+
+            Comparison<Student> compareBy = CompareByID;  // Assigning method CompareById to my delegate : NO ()
+
+            myStudents.Sort(compareBy);  // Magic - passing sorting rule here
+
+            // Printing students
+            DisplayStudents(myStudents);
+
+
+            Console.WriteLine("Sort By Student First name");
+
+            compareBy = CompareByFName;
+            myStudents.Sort(compareBy);
+
+            // Printing students
+            DisplayStudents(myStudents);
+
+
+            Console.WriteLine("Sort By Student Last name");
+              //     Notice the class name here WHY ??  
+            compareBy = Student.CompareByLName;
+
+            myStudents.Sort(compareBy);
+
+            DisplayStudents(myStudents);
+
+
+            // Part 02: Predicate<T> 
+
+            Console.WriteLine("Students with Grade 80 or above");
+
+            Predicate<Student> gradeCheck = HasHighGrade;
+
+            // Find all students who are scoring 80 or above
+            List<Student> gradeResult = myStudents.FindAll(gradeCheck);
+
+            DisplayStudents(gradeResult);
+        }
+
+        // Method to show my students
+
+        static void DisplayStudents(List<Student> students)
+        {
+            foreach (Student student in students)
             {
                 Console.WriteLine(student);
             }
-
-
         }
+
+        // Comparison Methods for comparison rules
+
+        // Define a rule to sort students according to Student ID
+        static int CompareByID(Student s1, Student s2)
+        { 
+            return s1.StudentId.CompareTo(s2.StudentId);
+        }
+
+        // Rule #02 to sort students according to Student FirstName
+        static int CompareByFName(Student s1, Student s2)
+        { 
+            return s1.StudentFName.CompareTo(s2.StudentFName);
+        }
+
+        // Rule #03 to sort students according to Student LastName
+        // Go check the class def for Rule #03- you can place rules in your class as well
+
+
+
+        // Predicate
+        /*
+         *  Predicate<T> is another delegate type
+         *    but unlike Comparison<T> . It does not compare two objects.
+         *    
+         *    It always asks YES/NO or TRUE/FALSE about one object
+         *    
+         */
+
+
+        static bool HasHighGrade(Student student)
+        {
+            return student.StudentGrade >= 80; // taking decision based on student Grade
+        }
+
+
+
     }
 
     

@@ -1,0 +1,12 @@
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\bin\Debug\AvoidFallingObjectsGame.exe.config
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\bin\Debug\AvoidFallingObjectsGame.exe
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\bin\Debug\AvoidFallingObjectsGame.pdb
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\bin\Debug\GDIDrawer.dll
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.csproj.AssemblyReference.cache
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.Properties.Resources.resources
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.csproj.GenerateResource.cache
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.csproj.CoreCompileInputs.cache
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFal.8B0EA5D7.Up2Date
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.exe
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.pdb
+C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\AvoidFallingObjectsGame\obj\Debug\AvoidFallingObjectsGame.Form1.resources

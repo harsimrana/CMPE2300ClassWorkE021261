@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\",
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\week07demoextensionmethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\harsimrana\\videos\\2300\\cmpe2300classworke021261\\week07demoextensionmethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\week07demoextensionmethods\\sequenceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\sequenceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|solutionrelative:sequenceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\week07demoextensionmethods\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|solutionrelative:stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\week07demoextensionmethods\\numberextenstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\numberextenstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|solutionrelative:numberextenstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\week07demoextensionmethods\\carextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\carextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|solutionrelative:carextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|c:\\users\\nait_work\\music\\1253\\cmpe2300classworke021261\\week07demoextensionmethods\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F98B27D-2C9A-4856-8C6D-2E4EB80F66D5}|Week07DemoExtensionMethods.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SequenceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\SequenceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\SequenceExtensions.cs",
               "RelativeDocumentMoniker": "SequenceExtensions.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\SequenceExtensions.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\SequenceExtensions.cs",
               "RelativeToolTip": "SequenceExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T03:40:27.749Z",
               "EditorCaption": ""
@@ -53,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "StringExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\StringExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\StringExtensions.cs",
               "RelativeDocumentMoniker": "StringExtensions.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\StringExtensions.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\StringExtensions.cs",
               "RelativeToolTip": "StringExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T03:14:49.461Z",
               "EditorCaption": ""
@@ -66,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NumberExtenstions.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\NumberExtenstions.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\NumberExtenstions.cs",
               "RelativeDocumentMoniker": "NumberExtenstions.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\NumberExtenstions.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\NumberExtenstions.cs",
               "RelativeToolTip": "NumberExtenstions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T02:48:04.494Z",
               "EditorCaption": ""
@@ -79,11 +79,11 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CarExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\CarExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\CarExtensions.cs",
               "RelativeDocumentMoniker": "CarExtensions.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\CarExtensions.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\CarExtensions.cs",
               "RelativeToolTip": "CarExtensions.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBAAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T02:26:42.594Z",
               "EditorCaption": ""
@@ -92,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Car.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Car.cs",
               "RelativeDocumentMoniker": "Car.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Car.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Car.cs",
               "RelativeToolTip": "Car.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T02:19:32.808Z",
               "EditorCaption": ""
@@ -105,11 +105,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\NAIT_WORK\\Music\\1253\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAADwv2kAAABAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week07DemoExtensionMethods\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAwwJYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T02:12:07.573Z",
               "EditorCaption": ""

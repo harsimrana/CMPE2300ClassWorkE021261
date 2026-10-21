@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+// LINQ Namespace is required 
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,7 +56,7 @@ namespace Week07DemoExtensionMethods
 
             // Exercise solution to add a method to count number of words in any string
 
-            string sentence = "I  am  learning  C#  OOPS\nconcepts";
+            string sentence = "I  am  learning C#  OOPS\nconcepts";
 
             int numberOfWords = sentence.CountWords();
 
@@ -73,12 +75,22 @@ namespace Week07DemoExtensionMethods
             DisplayNumbers(arrayofNumbers);
 
             //IEnumerable<T> only promises that we can enumerate (foreach )
-
-
             IEnumerable<int> readAsSequence = list;
             //readAsSequence.Add(45); // DOES NOT COMPILE: Add is not IEnumerable <T>
 
-            List<int> listA = new List<int>() { 1, 2, 2, 3, 4, 5 ,7,7 };
+            // Putting it in a separate method for better organization
+            PartB_SetOperations();
+
+            // Part C LINQ queries 
+
+            PartC_LINQOperations();
+
+        }
+
+
+        public static void PartB_SetOperations()
+        {
+            List<int> listA = new List<int>() { 1, 2, 2, 3, 4, 5, 7, 7 };
             List<int> listB = new List<int>() { 3, 4, 5, 6 };
 
             // CONCAT = A followed by B, includeing duplicates
@@ -91,7 +103,10 @@ namespace Week07DemoExtensionMethods
 
             listA.Distinct().PrintItems("Distict on list A");
 
-            listA.Concat(listB).Distinct().PrintItems("Distict after Concat");
+            listA
+                .Concat(listB)
+                .Distinct()
+                .PrintItems("Distict after Concat");
 
             // Union = All unique values from either sequence
 
@@ -106,10 +121,42 @@ namespace Week07DemoExtensionMethods
             listA.Except(listB).PrintItems(" A Except B ");  // 1,2, 7
 
             listB.Except(listA).PrintItems("B Except A ");  // 6
-
         }
 
 
+        public static void PartC_LINQOperations()
+        {
+            // LINQ Namespace is required at the top check line number 05 
+
+            List<int> studentMarks = new List<int> { 34, 67, 78, 99, 10, 91 };
+
+            // Filtering - WHERE CLAUSE in Database
+
+            // Alternative 1 : Short Cut one
+            studentMarks.Where(x => x >= 50).PrintItems("Result of Where Method ");
+
+            // Alternative 2: Regular way
+            IEnumerable<int> filteredStudents = studentMarks.Where(x => x >= 50);
+
+            filteredStudents.PrintItems("Alternative 2 of Where method ");
+
+            studentMarks.OrderBy(s => s).PrintItems("Order by ascending ");
+
+            studentMarks.OrderByDescending(s => s).PrintItems("Order by ascending ");
+
+            studentMarks
+                .Where(x => x > 70)
+                .OrderByDescending(x => x).PrintItems(" Combined Operations");
+
+            
+            studentMarks.Select(m => m + 5).PrintItems(" Selection ");
+
+            // NOT allowed 
+            //Console.WriteLine(filteredStudents[0]);
+            Console.WriteLine(filteredStudents.First()); // First element in the sequence
+
+
+        }
         //private static void DisplayNumbers(List<int> numbers)
         //{ 
         //    foreach(int n in numbers)

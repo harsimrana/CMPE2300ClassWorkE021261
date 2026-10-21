@@ -5,3 +5,10 @@ C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\Week07DemoExtensionMethod
 C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.csproj.CoreCompileInputs.cache
 C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.exe
 C:\Users\NAIT_WORK\Music\1253\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.pdb
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\bin\Debug\Week07DemoExtensionMethods.exe.config
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\bin\Debug\Week07DemoExtensionMethods.exe
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\bin\Debug\Week07DemoExtensionMethods.pdb
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.csproj.AssemblyReference.cache
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.exe
+C:\Users\harsimrana\Videos\2300\CMPE2300ClassWorkE021261\Week07DemoExtensionMethods\obj\Debug\Week07DemoExtensionMethods.pdb

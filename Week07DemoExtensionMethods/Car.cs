@@ -10,9 +10,18 @@ namespace Week07DemoExtensionMethods
     {
         public string Brand { get; set; }
 
-        public Car(string brand)
+        public int Year { get; set; }
+
+        public Car(string brand, int year= 2026)
         {
             Brand = brand;
+            Year = year;
+        }
+
+
+        public override string ToString()
+        {
+            return $" {Brand} - {Year}";
         }
 
         public void Start() => Console.WriteLine($"{Brand} started");

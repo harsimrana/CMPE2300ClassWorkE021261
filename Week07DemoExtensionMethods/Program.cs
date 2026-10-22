@@ -128,7 +128,7 @@ namespace Week07DemoExtensionMethods
         {
             // LINQ Namespace is required at the top check line number 05 
 
-            List<int> studentMarks = new List<int> { 34, 67, 78, 99, 10, 91 };
+            List<int> studentMarks = new List<int> { 34, 67, 78, 93, 10, 91 };
 
             // Filtering - WHERE CLAUSE in Database
 
@@ -138,11 +138,38 @@ namespace Week07DemoExtensionMethods
             // Alternative 2: Regular way
             IEnumerable<int> filteredStudents = studentMarks.Where(x => x >= 50);
 
+            // Multiple Conditions combined 
+            studentMarks.Where(x => x >= 50)  // LOGINCAL AND
+                        .Where(x => x < 80).PrintItems("Result of Compound Condition marks >=50 <80 ");
+
+            studentMarks.Where(x => x >= 50 && x < 80).PrintItems("Using && ");
+
+            studentMarks.Where(x => x == 34 || x == 67).PrintItems("Using ||");
+
             filteredStudents.PrintItems("Alternative 2 of Where method ");
 
             studentMarks.OrderBy(s => s).PrintItems("Order by ascending ");
 
             studentMarks.OrderByDescending(s => s).PrintItems("Order by ascending ");
+
+
+            // To specify second level for sorting then use ThenBy() ThenByDescending()
+
+            // Creating a list of car object 
+            List<Car> listofCars = new List<Car> { 
+                new Car("Nissan", 2013), 
+                new Car("Honda", 2025),
+                new Car("Toyota", 2024),
+                new Car("Honda", 2023),
+                new Car("Honda", 2021),
+                new Car("Nissan", 2025)
+            };
+
+            listofCars.OrderBy(c => c.Brand).PrintCars("List of cars sorted according Brand \n");
+
+            listofCars.OrderBy(c => c.Brand)
+                      .ThenByDescending(c=> c.Year)
+                      .PrintCars("List of cars sorted according Brand and then year \n");
 
             studentMarks
                 .Where(x => x > 70)
@@ -154,6 +181,28 @@ namespace Week07DemoExtensionMethods
             // NOT allowed 
             //Console.WriteLine(filteredStudents[0]);
             Console.WriteLine(filteredStudents.First()); // First element in the sequence
+
+            Console.WriteLine(filteredStudents.Last());  // Last one 
+            
+            // NO
+            //Console.WriteLine(filteredStudents[0]);
+            Console.WriteLine(filteredStudents.ElementAt(0));
+
+            // ANY atleast one match 
+            Console.WriteLine(" Any student > 95  "+ filteredStudents.Any( m => m >= 95));
+
+            // ALL - 
+
+            Console.WriteLine(" ALL student > 68  " + filteredStudents.All(m => m >= 68));
+
+
+            bool result = listofCars.All(c => c.Year > 2000);
+
+            Console.WriteLine(result);
+
+            Console.WriteLine("Contains : 67 " + filteredStudents.Contains(67));
+
+            Console.WriteLine("SUM of marks " + filteredStudents.Sum());
 
 
         }

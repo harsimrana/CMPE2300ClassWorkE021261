@@ -10,8 +10,18 @@ namespace Week07DemoExtensionMethods
     {
         public static void PrintItems<T>(this IEnumerable<T> source, string label)
         {
-            Console.Write(label);
-            Console.WriteLine(string.Join(", ", source));
+            Console.Write(label+" ");
+            Console.WriteLine(string.Join(", ", source.ToString()));
+        }
+
+        public static void PrintCars<T>(this IEnumerable<T> source, string label)
+        {
+            Console.Write(label + " ");
+
+            foreach (var obj in source)
+            {
+                Console.WriteLine(obj.ToString());
+            }
         }
     }
 }

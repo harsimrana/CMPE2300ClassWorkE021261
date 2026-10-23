@@ -133,7 +133,9 @@ namespace Week07DemoExtensionMethods
             // Filtering - WHERE CLAUSE in Database
 
             // Alternative 1 : Short Cut one
-            studentMarks.Where(x => x >= 50).PrintItems("Result of Where Method ");
+            studentMarks
+                .Where(x => x >= 50)
+                .PrintItems("Result of Where Method ");
 
             // Alternative 2: Regular way
             IEnumerable<int> filteredStudents = studentMarks.Where(x => x >= 50);
@@ -180,8 +182,9 @@ namespace Week07DemoExtensionMethods
 
             // NOT allowed 
             //Console.WriteLine(filteredStudents[0]);
-            Console.WriteLine(filteredStudents.First()); // First element in the sequence
-
+            Console.WriteLine(filteredStudents.FirstOrDefault()); // First element in the sequence
+            
+            // FirstOrDefault()
             Console.WriteLine(filteredStudents.Last());  // Last one 
             
             // NO

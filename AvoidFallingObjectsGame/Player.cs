@@ -19,6 +19,7 @@ namespace AvoidFallingObjectsGame
         private Color _color;
         private int _speed;
 
+        private int _scoreboard;
 
         // Properties
         public int X
@@ -93,6 +94,19 @@ namespace AvoidFallingObjectsGame
             }
         }
 
+        public int ScoreBoard
+        {
+            get
+            {
+                return _scoreboard;
+            }
+            set
+            { //validation 
+                if (value > 0) // For the time being there could be a penalty in future
+                    _scoreboard = value;
+            }
+        }
+
         // Calculated Read Only Property
 
         public string Description
@@ -113,6 +127,7 @@ namespace AvoidFallingObjectsGame
             _height= 40;
             _speed = 10;
             _color = Color.SkyBlue;
+            _scoreboard = 0;
 
         }
 
@@ -125,6 +140,7 @@ namespace AvoidFallingObjectsGame
             _height = height;
             _speed = speed;
             _color = color;
+            _scoreboard = 0;
 
         }
 
@@ -139,7 +155,7 @@ namespace AvoidFallingObjectsGame
         { 
             _x = _x - _speed;
 
-            if(_x< 0)  // Left wall found
+            if(_x < 0)  // Left wall found
             {
                 _x= 0;
             }

@@ -31,8 +31,10 @@ namespace AvoidFallingObjectsGame
         public Form1()
         {
             InitializeComponent();
-            _gameBoard = new CDrawer(600, 500);
-            
+            // _gameBoard = new CDrawer(600, 500);
+
+            _gameBoard = new CDrawer(Block.CanvasWidth, Block.CanvasHeight);
+
             KeyPreview = true;
 
             // Creating my player object
@@ -41,15 +43,24 @@ namespace AvoidFallingObjectsGame
             // Block object now
             //_block = new Block();
             // Create all my block
-            Random rand = new Random();
+            
+            //Instead your own Randow object, use the one provided by the class
+            //Random rand = new Random();
+
 
             for (int i = 1; i <= 10; ++i)
             { 
-                _block = new Block(i * 50, 20, 40, 20, Color.Yellow, rand.Next(5,10));
+                _block = new Block(i * 50, 20, 40, 20, Color.Yellow, Block.RandomIntValue(5,10));
                 
                 listOfBlock.Add(_block);
 
                 _block.DrawBlock(_gameBoard);
+
+                // Update the block count on label
+                // using method
+                UI_BlockCountLbl.Text = Block.GetBlockCount().ToString();
+                // Using Property
+                UI_BlockCountLbl.Text = $"Block Count : {Block.BlockCount}";
             }
 
             
@@ -100,9 +111,24 @@ namespace AvoidFallingObjectsGame
             foreach (Block b in listOfBlock)
             {
                 b.MoveDown();
+
+                // Collision Detection logic
+                if (b.Y + b.Height == 450 && (b.X >= _player.X && b.X <= _player.X + _player.Width)) // There is an issue with this logic- FIX it
+                {
+                    timerGame.Enabled = false;
+
+                    MessageBox.Show("Game Ends There is a collision");
+                 
+                }
+
                 // If it is going past the lower end, reset it
                 if (b.Y > 500)
+                {
                     b.Reset();
+                    _player.ScoreBoard++;
+                    UI_PlayerScore_Lbl.Text = $"Player_Score : {_player.ScoreBoard}";
+                }
+                Console.WriteLine(b.ToString());  
 
             }
             RedrawGameBoard();

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -101,18 +102,59 @@ namespace AvoidFallingObjectsGame
             }
         }
 
-        // CTOR
-        // Default CTOR
-        public Block()
-        {
-            _x = 100;
-            _y = 20;
-            _width = 50;
-            _height = 30;
-            _speed = 5;
-            _color = Color.Red;
+
+        //STATIC Members
+        private static int _blockCount;
+         static Random _rand;
+
+         static int _canvasWidth;
+         static int _canvasHeight;
+
+
+        //PROPERTIES
+
+        public static int BlockCount
+        { 
+            get { return _blockCount; }
+
+            // Read only property
+        }
+
+        public static int CanvasWidth
+        { 
+            get { return _canvasWidth; }
+            set {  
+                if(value > 100 && value <= 1000)
+                    _canvasWidth = value; 
+            }
 
         }
+
+        public static int CanvasHeight
+        {
+            get { return _canvasHeight; }
+            set
+            {
+                if (value > 100 && value <= 1000)
+                    _canvasHeight = value;
+            }
+
+        }
+
+
+        // CTOR
+        // Default CTOR
+        //public Block()
+        //{
+        //    _x = 100;
+        //    _y = 20;
+        //    _width = 50;
+        //    _height = 30;
+        //    _speed = 5;
+        //    _color = Color.Red;
+
+
+        //}
 
         // Custom CTOR
         public Block(int x, int y, int width, int height, Color color, int speed)
@@ -123,6 +165,24 @@ namespace AvoidFallingObjectsGame
             _height = height;
             _speed = speed;
             _color = color;
+
+            _blockCount++;
+
+        }
+
+        // CTOR Chaining 
+        public Block():this(100,20,50,30,Color.Red, 5)
+        {
+
+        } 
+
+        // STATIC CTOR
+        static Block()
+        {
+            _blockCount = 0;
+            _canvasHeight = 500;
+            _canvasWidth = 600;
+            _rand= new Random();
 
         }
 
@@ -143,5 +203,23 @@ namespace AvoidFallingObjectsGame
         {
             _y = 0;
         }
+
+
+        // Static Methods
+        public static int GetBlockCount()
+        {
+            return _blockCount;
+        }
+
+        public static int RandomIntValue(int min, int max)
+        {
+            return _rand.Next(min, max + 1);
+        }
+
+        public override string ToString()
+        {
+            return $" Block XY {X} : {Y} : {Color} : {Speed}";
+        }
+
     }
 }

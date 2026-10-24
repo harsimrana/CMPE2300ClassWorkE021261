@@ -16,7 +16,7 @@ namespace W2Demo01Classes
             // Class Name  objectName =  new ClassName();
 
             //Student student1 = new Student();  // this is default constructor 
-
+            Console.WriteLine("Inside MAIN before creating any object ");
             Student student1 = new Student(1, "Simran", "Aulakh");  // This will call your parameterized CTOR
 
             // How to access public Data Members

@@ -47,7 +47,7 @@ namespace W2Demo01Classes
         double _studentGrade;
 
         // Static Data member
-        public static int StudentCount = 0;
+        public static int StudentCount;
 
         /* Properties 
          Let you control access to data members without forcing
@@ -299,6 +299,28 @@ namespace W2Demo01Classes
         public static int CompareByLName(Student s1, Student s2)
         {
             return s1.StudentLName.CompareTo(s2.StudentLName);
+        }
+
+        // Static CTOR : One time setup
+
+        // Week 04: Day 03 : Demo to continue to grow 
+
+        // Static CTOR - kind of a method but a special kind of method
+        // Define A DIFFERENT class and implement equals for the class you've created.
+
+
+        // 1. There is no access modifier or return data type for Static Constructors 
+        // 2. A static constructor cannot be called manually, (literally never)  
+        // 3. A class can have a REGULAR CTOR and a STATIC CTOR
+        // 4. NO, You can not overload a static CTOR. It is on its own island and runs secretly in the background before anything else
+        // 5. Static CTOR/Methid cannot access instance (non static) data members 
+        // 6. It only runs once [automatically] and its the first thing that get's called before the first instance or a static member is accessed
+        // 7. Make sure to not do any calls inside the static constructor that can actually fail or not connect when starting up the application.
+        static Student()
+        {
+            Console.WriteLine("Inside Static CTOR");
+            StudentCount = 0;
+            // Establish a connection to your database
         }
 
     }

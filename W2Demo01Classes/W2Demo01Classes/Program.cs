@@ -8,6 +8,9 @@ namespace W2Demo01Classes
 {
     internal class Program
     {
+        // Week 09 Day 03
+        static LinkedList<Student> waitingList = new LinkedList<Student>();
+
         static void Main(string[] args)
         {
             // Create and use the object
@@ -212,8 +215,134 @@ namespace W2Demo01Classes
             List<Student> gradeResult = myStudents.FindAll(gradeCheck);
 
             DisplayStudents(gradeResult);
+
+
+            // Week 09 Day 03: 30.10.2026 - Linked List
+            // Real life example: a college waiting list of studnets for a course
+
+            // It will create a new Linked list for you
+            
+
+            // Step 1: Add student at the end of the Liked List
+
+            Console.WriteLine("Step 1: AddLast() ");
+
+            waitingList.AddLast(new Student());
+            waitingList.AddLast(new Student(101, "Simran", "Aulakh", 63));
+            waitingList.AddLast(new Student(102, "Alex", "ABC", 85));
+
+            DisplayForward();
+
+            // Step 2: Add a priority student at the beginning of the list
+
+            Console.WriteLine("Step 2: AddFirst()");
+
+            waitingList.AddFirst(new Student(100, "Priya", "Sharma", 89));
+
+            DisplayForward();
+
+            // Step 3: Insert a student after Simran
+            Console.WriteLine("Step 3: AddAfter() to insert a new node after a specific node");
+
+            LinkedListNode<Student> simranNode = FindStudent(101);  // Searching a particular student
+
+            if (simranNode != null)
+            {
+                waitingList.AddAfter(simranNode, new Student(111, "ABC","ABC 1", 76));
+            }
+
+            DisplayForward();
+
+            // Similary if you want to add before node then use AddBefore(node, new Node)
+            
+            // Step 4: Remove a student
+
+            // // Find the student and then delete it
+
+            LinkedListNode<Student> removeNode = FindStudent(101);  // Finding the node containing Simran
+
+            if (removeNode != null)
+            {
+                waitingList.Remove(removeNode);
+                Console.WriteLine("Simran has been removed from the linked list");
+            }
+
+            DisplayForward();
+
+            // Step 5: Access first and Last Nodes
+
+            Console.WriteLine("Step 5: First and Last nodes");
+            if (waitingList.First != null)  // First and Last are PROPERTIES not METHODS
+            {
+                Console.WriteLine($"First Node: {waitingList.First.Value.ToString()}");
+            }
+
+            if (waitingList.Last != null)
+            {
+                Console.WriteLine($"First Node: {waitingList.Last.Value.ToString()}");
+            }
+
+            // Step 6: Node Count 
+            Console.WriteLine($"Number of nodes in Linked List {waitingList.Count}"); // Count is also a property 
+
+
+            // Step 7: Display the Linked list in reverse order 
+            DisplayBackward();
+
+            /*              One  Node
+             *    ____________________________
+             *   | Previous |  Value  | Next  |
+             *    ----------------------------
+             * 
+             */
+
         }
 
+        // This method will retunr LinkedList Node of Student type if you match is found otherwise null
+
+        static LinkedListNode<Student> FindStudent(int id)
+        {
+            LinkedListNode<Student> current = waitingList.First;
+
+            while (current != null)
+            {
+                if (current.Value.StudentId == id)
+                {
+                    return current;
+                }
+                current = current.Next;
+            }
+            return null;
+
+        }
+        static void DisplayBackward()
+        {
+            Console.WriteLine("Waiting list backward direction");
+
+            // Because it will return you a Linked List node not student object
+
+            LinkedListNode<Student> current = waitingList.Last; // Starting from last
+
+            while (current != null)
+            {
+                Console.WriteLine(current.Value.ToString());  // current.value = Student
+                current = current.Previous;
+            }
+        }
+        static void DisplayForward()
+        {
+            Console.WriteLine("Waiting list forward direction");
+
+            // Because it will return you a Linked List node not student object
+           
+            LinkedListNode<Student> current = waitingList.First;
+
+            while (current != null)
+            {
+                Console.WriteLine(current.Value.ToString());  // current.value = Student
+                current = current.Next;
+            }
+        }
         // Method to show my students
 
         static void DisplayStudents(List<Student> students)
@@ -257,6 +386,9 @@ namespace W2Demo01Classes
         {
             return student.StudentGrade >= 80; // taking decision based on student Grade
         }
+
+
+
 
 
 

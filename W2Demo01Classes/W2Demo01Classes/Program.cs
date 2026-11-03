@@ -223,7 +223,7 @@ namespace W2Demo01Classes
             // It will create a new Linked list for you
             
 
-            // Step 1: Add student at the end of the Liked List
+            // Step 1: Add student at the end of the Linked List
 
             Console.WriteLine("Step 1: AddLast() ");
 

@@ -1,7 +1,0 @@
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\bin\Debug\Week06_Day01_Lambdas.exe.config
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\bin\Debug\Week06_Day01_Lambdas.exe
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\bin\Debug\Week06_Day01_Lambdas.pdb
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\obj\Debug\Week06_Day01_Lambdas.csproj.AssemblyReference.cache
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\obj\Debug\Week06_Day01_Lambdas.csproj.CoreCompileInputs.cache
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\obj\Debug\Week06_Day01_Lambdas.exe
-C:\GIT\2300_New\CMPE2300_Personal\Personal_Demos\Week06_Day01_Lambdas\Week06_Day01_Lambdas\obj\Debug\Week06_Day01_Lambdas.pdb

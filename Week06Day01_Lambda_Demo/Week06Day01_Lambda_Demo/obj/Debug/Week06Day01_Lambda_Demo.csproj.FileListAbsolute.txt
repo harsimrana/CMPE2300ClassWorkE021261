@@ -1,0 +1,7 @@
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\bin\Debug\Week06Day01_Lambda_Demo.exe.config
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\bin\Debug\Week06Day01_Lambda_Demo.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\bin\Debug\Week06Day01_Lambda_Demo.pdb
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\obj\Debug\Week06Day01_Lambda_Demo.csproj.AssemblyReference.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\obj\Debug\Week06Day01_Lambda_Demo.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\obj\Debug\Week06Day01_Lambda_Demo.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week06Day01_Lambda_Demo\Week06Day01_Lambda_Demo\obj\Debug\Week06Day01_Lambda_Demo.pdb

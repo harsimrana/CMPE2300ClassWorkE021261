@@ -1,0 +1,7 @@
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\bin\Debug\LinkedListSpaceMissionControl.exe.config
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\bin\Debug\LinkedListSpaceMissionControl.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\bin\Debug\LinkedListSpaceMissionControl.pdb
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\obj\Debug\LinkedListSpaceMissionControl.csproj.AssemblyReference.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\obj\Debug\LinkedListSpaceMissionControl.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\obj\Debug\LinkedListSpaceMissionControl.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\LinkedListSpaceMissionControl\LinkedListSpaceMissionControl\obj\Debug\LinkedListSpaceMissionControl.pdb

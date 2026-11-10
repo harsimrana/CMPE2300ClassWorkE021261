@@ -1,0 +1,7 @@
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\bin\Debug\Week08Day02QueueStackDemo.exe.config
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\bin\Debug\Week08Day02QueueStackDemo.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\bin\Debug\Week08Day02QueueStackDemo.pdb
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\obj\Debug\Week08Day02QueueStackDemo.csproj.AssemblyReference.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\obj\Debug\Week08Day02QueueStackDemo.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\obj\Debug\Week08Day02QueueStackDemo.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week08Day02QueueStackDemo\Week08Day02QueueStackDemo\obj\Debug\Week08Day02QueueStackDemo.pdb

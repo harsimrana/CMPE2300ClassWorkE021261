@@ -1,0 +1,7 @@
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\bin\Debug\Week10day02Dictionary.exe.config
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\bin\Debug\Week10day02Dictionary.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\bin\Debug\Week10day02Dictionary.pdb
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\obj\Debug\Week10day02Dictionary.csproj.AssemblyReference.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\obj\Debug\Week10day02Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\obj\Debug\Week10day02Dictionary.exe
+C:\Users\harsimrana\Music\CMPE2300 1261 Fall 2026\Week10day02Dictionary\Week10day02Dictionary\obj\Debug\Week10day02Dictionary.pdb

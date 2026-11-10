@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\Music\\CMPE2300 1261 Fall 2026\\Week08Day02QueueStackDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6520D4E-B866-4572-BA56-D1D466986076}|Week08Day02QueueStackDemo\\Week08Day02QueueStackDemo.csproj|c:\\users\\harsimrana\\music\\cmpe2300 1261 fall 2026\\week08day02queuestackdemo\\week08day02queuestackdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6520D4E-B866-4572-BA56-D1D466986076}|Week08Day02QueueStackDemo\\Week08Day02QueueStackDemo.csproj|solutionrelative:week08day02queuestackdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Music\\CMPE2300 1261 Fall 2026\\Week08Day02QueueStackDemo\\Week08Day02QueueStackDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Week08Day02QueueStackDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Music\\CMPE2300 1261 Fall 2026\\Week08Day02QueueStackDemo\\Week08Day02QueueStackDemo\\Program.cs",
+              "RelativeToolTip": "Week08Day02QueueStackDemo\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwvzgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T00:08:04.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

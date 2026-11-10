@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\harsimrana\\Music\\CMPE2300 1261 Fall 2026\\Week06Day01_Lambda_Demo\\",
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week06Day01_Lambda_Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D0823E6-ADF3-4D4E-8202-D993AECD49B1}|Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo.csproj|c:\\users\\harsimrana\\music\\cmpe2300 1261 fall 2026\\week06day01_lambda_demo\\week06day01_lambda_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D0823E6-ADF3-4D4E-8202-D993AECD49B1}|Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo.csproj|c:\\users\\harsimrana\\videos\\2300\\cmpe2300classworke021261\\week06day01_lambda_demo\\week06day01_lambda_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D0823E6-ADF3-4D4E-8202-D993AECD49B1}|Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo.csproj|solutionrelative:week06day01_lambda_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\harsimrana\\Music\\CMPE2300 1261 Fall 2026\\Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo\\Program.cs",
               "RelativeDocumentMoniker": "Week06Day01_Lambda_Demo\\Program.cs",
-              "ToolTip": "C:\\Users\\harsimrana\\Music\\CMPE2300 1261 Fall 2026\\Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Videos\\2300\\CMPE2300ClassWorkE021261\\Week06Day01_Lambda_Demo\\Week06Day01_Lambda_Demo\\Program.cs",
               "RelativeToolTip": "Week06Day01_Lambda_Demo\\Program.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAwI4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAzwFAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T23:17:12.243Z",
               "EditorCaption": ""

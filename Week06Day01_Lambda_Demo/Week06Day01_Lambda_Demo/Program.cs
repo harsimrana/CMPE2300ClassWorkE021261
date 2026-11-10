@@ -61,7 +61,9 @@ namespace Week06Day01_Lambda_Demo
             // is specially designed for a method that
             // accepts one value
             // return bool
+
             Predicate<int> isPositiveV1 = number => number > 0;
+
             Console.WriteLine("Lambda Part : "+ isPositiveV1(5));
 
             Console.WriteLine(isPositive(5));

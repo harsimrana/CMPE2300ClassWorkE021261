@@ -14,7 +14,7 @@ namespace Week12Day01IneritanceDemo01
             // allows one class to derive/acquire the properties and methods of another 
             // class
 
-            // Vehicle class you can derive Car or Motorcycle or Truck
+            // From Vehicle class you can derive Car or Motorcycle or Truck
             // All these vehicles have something common
             // Common features: Brand, model, year, Speed, Start() Stop()
             // Specific features
@@ -67,9 +67,30 @@ namespace Week12Day01IneritanceDemo01
             // HOW DO CTOR WORK WITH INHERITANCE
             // 
 
-            // It will call vehicle CTOR first why?
+            // It will call Vehicle CTOR first, why?
             // because when Car object is created, C# must initilize the base class portiong of the 
             // of the object before running the derived class CTOR body.
+
+            // What about parameterized CTOR
+
+            Car brandNewCar = new Car("Nissan", 120, 4);
+
+            Console.WriteLine($" New Car Information : {brandNewCar.Brand} | {brandNewCar.Speed} | {brandNewCar.NumberOfDoors} ");
+
+            // What about STATIC CTOR
+            // THE CAR STATIC CTOR will execute before the Vehicle static CTOR in this case
+            // This is because C# does not gurantee that the parent class's static CTOR will execute before the child's class
+            // Static CTOR
+            // But when we create a CAR, the instance CTOR of Vehicle [base class] always executes before the instance CTOR of CAR
+            
+            // VERY IMPORTANT POINT
+            // Static CTOR are not inherited. Every class maintains its own type initialization.
+            
+            //VERY VERY IMPORTANT
+            // Can a child class access static members of the parent class???
+            // Yes, accessible [public, protected] static members are inherited, even though static CTORs themselves are not
+
+
 
         }
     }

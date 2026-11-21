@@ -8,6 +8,8 @@ namespace Week12Day01IneritanceDemo01
 {
     internal class Vehicle
     {
+        public static int TotalVehicles;
+
         public string Brand { get; set; }
 
         public int Speed { get; set; }
@@ -15,8 +17,27 @@ namespace Week12Day01IneritanceDemo01
         // CTOR
         public Vehicle()
         {
-            Console.WriteLine("Vehicle CTRO called");
+            Console.WriteLine("Vehicle CTOR is called");
+            TotalVehicles++;
         }
+
+        // Parameterized CTOR
+        public Vehicle(string brand, int speed)
+        {
+            TotalVehicles++;
+            Console.WriteLine("Vehicle Parameterized CTOR is called");
+            Brand = brand;
+            Speed = speed;
+        }
+
+
+        //Static CTOR
+        static Vehicle()
+        {
+            TotalVehicles = 0;
+            Console.WriteLine("Vehicle Static CTOR  is called");
+        }
+
 
         public void Start()
         {
